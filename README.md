@@ -3,19 +3,19 @@ numpy:www.numpy.org
 
 1.安全转换数据类型 : astype
 
-  a = np.array([[1,2,3,4], [4,5,6,7], [4,5,8,9]], dtype=np.float)
-  print(a.shape)
-  print(a)
-  b = a.astype(np.int)
-  print(b)
+        a = np.array([[1,2,3,4], [4,5,6,7], [4,5,8,9]], dtype=np.float)
+        print(a.shape)
+        print(a)
+        b = a.astype(np.int)
+        print(b)
 
-  (3, 4)
-  [[1. 2. 3. 4.]
-   [4. 5. 6. 7.]
-   [4. 5. 8. 9.]]
-  [[1 2 3 4]
-   [4 5 6 7]
-   [4 5 8 9]]
+        (3, 4)
+        [[1. 2. 3. 4.]
+         [4. 5. 6. 7.]
+         [4. 5. 8. 9.]]
+        [[1 2 3 4]
+         [4 5 6 7]
+         [4 5 8 9]]
 2. numpy的类型：np.float, np.complex, np.int
 
 3. e1 = np.arange(1,10,0.5)
